@@ -1,0 +1,16 @@
+D:\Code\OOP\Bài 2\bin\Debug\net5.0\Bài 2.exe
+D:\Code\OOP\Bài 2\bin\Debug\net5.0\Bài 2.deps.json
+D:\Code\OOP\Bài 2\bin\Debug\net5.0\Bài 2.runtimeconfig.json
+D:\Code\OOP\Bài 2\bin\Debug\net5.0\Bài 2.runtimeconfig.dev.json
+D:\Code\OOP\Bài 2\bin\Debug\net5.0\Bài 2.dll
+D:\Code\OOP\Bài 2\bin\Debug\net5.0\ref\Bài 2.dll
+D:\Code\OOP\Bài 2\bin\Debug\net5.0\Bài 2.pdb
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.csproj.AssemblyReference.cache
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.AssemblyInfoInputs.cache
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.AssemblyInfo.cs
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.csproj.CoreCompileInputs.cache
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.dll
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\ref\Bài 2.dll
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.pdb
+D:\Code\OOP\Bài 2\obj\Debug\net5.0\Bài 2.genruntimeconfig.cache
