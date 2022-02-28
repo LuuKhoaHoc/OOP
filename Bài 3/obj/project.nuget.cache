@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kWErrcOamSsaCklpeJj7hKmZAQZH5u4e1xD+boR0/UOTrVW1/6nlri/9QOdZ+tQpv3gzn3JY2WO2kjDLHKDp4A==",
+  "dgSpecHash": "IEZmITojMDa2fWJaJHVBATPID9niBEf29VJqNntYEFCUdRlboDV8l34U4REvF8A7Z/11SfdCGXyDGNJeVVYCKg==",
   "success": true,
   "projectFilePath": "D:\\Code\\OOP\\Bài 3\\Bài 3.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\luatl\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
