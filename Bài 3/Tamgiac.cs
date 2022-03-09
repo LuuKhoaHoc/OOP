@@ -15,11 +15,16 @@ namespace Khoa_Học_bài_3
         }
         public Tamgiac(float ma, float mb, float mc)
         {
-            if (((ma < 0) || (mb < 0) || (mc < 0)) && ((mb + mc > ma) || (ma + mc > mb) || (ma + mb > mc)))
+            if (((ma < 0) || (mb < 0) || (mc < 0)) && ((mb + mc < ma) || (ma + mc < mb) || (ma + mb < mc)))
             {
                 ma = 0;
                 mb = 0;
                 mc = 0;
+            }
+            else {
+                this.ma = ma;
+                this.mb = mb;
+                this.mc = mc;
             }
         }
         public string Kiemtratamgiac()
@@ -40,16 +45,16 @@ namespace Khoa_Học_bài_3
         }
         public void ToString()
         {
-            System.Console.WriteLine("|{0,-10}|{1,-10}|{2,-10}|{3,20}|{4,10}|{5,10}|", ma, mb, mc, this.Kiemtratamgiac(), this.Chuvitamgiac(), this.dientichtamgiac());
+            System.Console.WriteLine("|{0,-10}|{1,-10}|{2,-10}|{3,20}|{4,10}|{5,20}|", ma, mb, mc, this.Kiemtratamgiac(), this.Chuvitamgiac(), this.dientichtamgiac());
         }
         public static void title()
         {
-            for (int i = 0; i < 77; i++)
+            for (int i = 0; i < 87; i++)
             {
                 System.Console.Write("*");
             }
             System.Console.WriteLine();
-            System.Console.WriteLine("|{0,10}|{1,10}|{2,10}|{3,20}|{4,10}|{5,10}|", "MA", "MB", "MC", "Kieu tam giac", "Chu vi", "Dien tich");
+            System.Console.WriteLine("|{0,10}|{1,10}|{2,10}|{3,20}|{4,10}|{5,20}|", "MA", "MB", "MC", "Kieu tam giac", "Chu vi", "Dien tich");
             for (int i = 0; i < 77; i++)
             {
                 System.Console.Write("*");
@@ -58,7 +63,7 @@ namespace Khoa_Học_bài_3
         }
         public static void ending()
         {
-            for (int i = 0; i < 77; i++)
+            for (int i = 0; i < 87; i++)
             {
                 System.Console.Write("*");
             }

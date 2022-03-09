@@ -1,0 +1,10 @@
+﻿Console.OutputEncoding = System.Text.Encoding.UTF8;
+CNList cNList = new CNList();
+cNList.AddCN(001,"Lí Dĩ","Fong",300);
+cNList.AddCN(002,"Lưu Khoa","Họk",180);
+cNList.AddCN(003,"Fong Ma","Tuý",700);
+cNList.PrintCN();
+cNList.PrintCN200();
+System.Console.WriteLine("Số công nhân trong danh sách: {0}",cNList.CountCN());
+cNList.SortCNbySoSP();
+cNList.PrintCN();
